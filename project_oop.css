@@ -1,0 +1,169 @@
+*{
+
+box-sizing: border-box;
+margin: 0;
+padding: 0px;
+font-family: 'nexa-bld';
+}
+
+
+
+.login-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgba(0, 102, 153, 1);
+    /*background-color: #f8f9fa;*/
+}
+#main{
+    background-color: rgba(0, 102, 153, 1);
+
+}
+
+.login-headline {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 2rem;
+    background-color: yellow;
+    border-radius: 40px;
+    border: 5px solid red;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 25px;
+    
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #ccc;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    padding: 1.5rem;
+    width: 65%;
+    height: 320px;
+}
+.login-container h4{
+    margin-left: -6px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.vertical-line {
+    border-left: 1px solid #ccc;
+    height: 80%;
+    margin: auto 2rem;
+   
+}
+
+#info-section {
+    flex: 1;
+}
+
+#login-form {
+    flex: 1;
+    width: 100%;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.info-normal {
+    background-color: #f2f2f2;
+    border-radius: 0.25rem;
+   width: 100%;
+    border: 1px solid black;
+    
+    height: 250px;
+    
+}
+.info-normal p{
+    font-size: 10px;
+    
+    opacity: 0.7;
+}
+.info-normal h6,p{
+margin-left: 10px;
+}
+.info-normal h6{
+    margin-top: 15px;
+    font-weight: 400;
+    
+}
+.info-normal a{
+    font-size: 9px;
+    text-decoration: none;
+    color: #0d3bf5;
+    
+}
+.input-group input{
+    width: 100%;
+    font-size: 13px;
+}
+.form-group input{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.row{display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.col input{
+margin-top: 8px;
+width: 110px;
+background-color: #007bff;
+color: white;
+border-radius: 2px;
+border: 1px solid #007bff;
+font-size: 10px;
+height: 20px;
+}
+.row a{
+text-decoration: none;
+font-size: 10px;
+color: #0d3bf5;
+}
+.last{
+    margin-top: 50px;
+}
+.last ul {
+    font-size: 8px;
+}
+
+
+
+
+.text-danger {
+    color: #dc3545;
+}
+
+ul {
+    padding-left: 1rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+.objective{
+    margin-top: 7px;
+}
+.info-normal ul li{
+    margin-left: 25px;
+    font-size: 5px;
+    margin-bottom: 3px;
+}
+.info-normal ul{
+    margin-top: 12px;
+}
